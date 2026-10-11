@@ -1,4 +1,4 @@
-![Inturp — Thoughtfully built. Simply useful.](./banner.svg)
+![Inturp — Thoughtfully built. Simply useful.](./banner.png)
 
 # Ideas made useful.
 
