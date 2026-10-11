@@ -1,0 +1,22 @@
+name: Feature request / اقتراح
+description: Suggest a focused improvement.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need / الحاجة
+      description: What are you trying to accomplish, and what gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement / الاقتراح
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / البدائل
+      description: Any workarounds or other approaches considered.

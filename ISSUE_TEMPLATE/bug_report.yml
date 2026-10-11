@@ -1,0 +1,31 @@
+name: Bug report / مشكلة
+description: Report a reproducible problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include passwords, API keys, customer data, or private screenshots. Report security issues privately to info@inturp.com."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened? / ماذا حدث؟
+      description: Describe the actual and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / خطوات إعادة المشكلة
+      placeholder: "1. Open…\n2. Select…\n3. Observe…"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / البيئة
+      placeholder: App version, device, OS, browser
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context / معلومات إضافية
+      description: Sanitized screenshots or logs, if helpful.

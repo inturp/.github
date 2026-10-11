@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Business enquiries / التواصل والتعاون
+    url: https://inturp.com/#contact
+    about: Discuss a project or partnership with Inturp.
+  - name: Private security report / بلاغ أمني خاص
+    url: mailto:info@inturp.com
+    about: Do not report security vulnerabilities in public issues.
